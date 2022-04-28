@@ -28,17 +28,14 @@ export const fetchFeedback = createAsyncThunk(
 	GET_FEEDBACK,
 	fetchFeedbackCreator
 );
-export const addFeedback = createAsyncThunk(
-	ADD_FEEDBACK,
-	await addFeedbackCreator
-);
+export const addFeedback = createAsyncThunk(ADD_FEEDBACK, addFeedbackCreator);
 export const editFeedback = createAsyncThunk(
 	EDIT_FEEDBACK,
-	await editFeedbackCreator
+	editFeedbackCreator
 );
 export const deleteFeedback = createAsyncThunk(
 	DELETE_FEEDBACK,
-	await deleteFeedbackCreator
+	deleteFeedbackCreator
 );
 
 /* It creates a new slice. */

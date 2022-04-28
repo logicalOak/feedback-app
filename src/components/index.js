@@ -1,6 +1,5 @@
 // layout
 export { default as Loader } from './layout/Loader';
-export { default as Toggle } from './layout/Toggle';
 export { default as Header } from './layout/Header';
 export { default as Footer } from './layout/Footer';
 export { default as Form } from './layout/Form';

@@ -106,8 +106,7 @@ const Form = () => {
 				{/* Button */}
 				<button
 					className={`btn ${
-						errors.text &&
-						'bg-slate-300 pointer-events-none dark:bg-slate-400'
+						errors.text && 'bg-slate-300 pointer-events-none'
 					}`}
 					type='submit'
 				>

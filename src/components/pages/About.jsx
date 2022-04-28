@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
  * @constructor
  */
 const About = () => (
-	<div className='max-w-4xl m-auto flex flex-col items-start gap-[10px] bg-white shadow rounded px-5 py-3 dark:bg-primary dark:text-secondary'>
+	<div className='max-w-4xl m-auto flex flex-col items-start gap-[10px] bg-white shadow rounded px-5 py-3'>
 		<h1 className='font-semibold text-lg sm:text-xl'>👉 About</h1>
 		<p>
 			<span className='font-semibold'>Description:</span> Application for
